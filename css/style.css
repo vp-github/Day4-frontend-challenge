@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+.sub-container {
+  background-color: white;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 700px;
+  width: 450px;
+  border-radius: 20px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.content-div {
+  padding: 50px;
+}
+.img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.head-div {
+  text-align: center;
+  font-weight: 900;
+  height: 50px;
+  font-size: 30px;
+}
+.description {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: hsl(224, 23%, 55%);
+}
+.btn {
+  width: 355px;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  font-size: 16px;
+  font-weight: 900;
+  color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  border-radius: 10px;
+  box-shadow: hsl(223, 47%, 23%);
+  margin-bottom: 25px;
+}
+.link-div {
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+}
+.plan-box {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 100px;
+  background-color: hsl(225, 100%, 98%);
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+.icon {
+  height: 50px;
+  margin: 20px;
+}
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 80px;
+}
+strong {
+  font-weight: 1000;
+  color: black;
+  font-size: 16px;
+}
+p {
+  color: hsl(224, 23%, 55%);
+}
+.plan-change {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+}
+.btn:active,
+a:active {
+  cursor: pointer;
+}
